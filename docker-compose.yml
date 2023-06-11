@@ -1,0 +1,13 @@
+version: '3'
+services:
+  redis:
+    image: bitnami/redis
+    container_name: redis
+    restart: unless-stopped
+    hostname: redis
+    network_mode: bridge
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - 6379:6379
+      
