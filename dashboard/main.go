@@ -23,6 +23,8 @@ func main() {
 		Addr:    ":8081",
 	}
 
+	log.Println("Dashboard is running at: http://localhost:8081")
+
 	// Go to http://localhost:8080/monitoring to see asynqmon homepage.
 	log.Fatal(srv.ListenAndServe())
 }

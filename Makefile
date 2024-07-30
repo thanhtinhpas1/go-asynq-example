@@ -1,6 +1,7 @@
+.PHONY: pre_install worker dash app
+
 pre_install:
 	go mod download
-	docker-compose up -d
 
 worker:
 	go run worker/main.go
