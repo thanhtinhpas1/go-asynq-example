@@ -5,6 +5,8 @@ Asynq has many features for task like schedule, timeout, retry, etc.
 
 ![Overview](https://user-images.githubusercontent.com/11155743/116358505-656f5f80-a806-11eb-9c16-94e49dab0f99.jpg)
 
+![Dashboard](images/dashboard_example.png)
+
 ## Prerequisites
 Make sure redis already exists in your environment or install by using below commands:
 
